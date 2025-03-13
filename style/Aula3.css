@@ -11,7 +11,9 @@ body{
     border-bottom: groove blueviolet 7px ;
     padding: 25px 50px;
     background-color: violet;
-    margin: 15px 350px;
+    margin-top: 15px;
+    margin-left: 350px;
+    margin-right: 350px;
     font-size: 3.5dvw;
 }
 .p2{
@@ -25,7 +27,7 @@ body{
     background-color: black;
     margin-top: 35px;
     margin-left: 350px;
-    margin-right: 800px;
+    margin-right: 940px;
     font-size: 1vw;    
 }
 .p3{
@@ -39,7 +41,7 @@ body{
     background-color: black;
     margin-top: 35px;
     margin-left: 350px;
-    margin-right: 800px;
+    margin-right: 940px;
     font-size: 1vw;    
 }
 .p4{
@@ -53,7 +55,7 @@ body{
     background-color: black;
     margin-top: 35px;
     margin-left: 350px;
-    margin-right: 800px;
+    margin-right: 940px;
     font-size: 1vw;    
 }
 .p5{
@@ -66,7 +68,7 @@ body{
     padding: 15px 1px;
     background-color: black;
     margin-top: 35px;
-    margin-left: 800px;
+    margin-left: 940px;
     margin-right: 350px;
     font-size: 1vw;
 }
@@ -80,7 +82,7 @@ body{
     padding: 15px 1px;
     background-color: black;
     margin-top: 35px;
-    margin-left: 800px;
+    margin-left: 940px;
     margin-right: 350px;
     font-size: 1vw;    
 }
@@ -94,7 +96,7 @@ body{
     padding: 15px 1px;
     background-color: black;
     margin-top: 35px;
-    margin-left: 800px;
+    margin-left: 940px;
     margin-right: 350px;
     font-size: 1vw;    
 }
@@ -110,7 +112,7 @@ body{
     background-color: violet;
     margin-top: 35px;
     margin-left: 350px;
-    margin-right: 800px;
+    margin-right: 940px;
     font-size: 1vw;
 
 }
@@ -125,7 +127,7 @@ body{
     background-color:rgb(21, 17, 40);
     margin-top: 35px;
     margin-left: 350px;
-    margin-right: 800px;
+    margin-right: 940px;
     font-size: 1vw;
 
 }
@@ -140,7 +142,7 @@ body{
     background-color: white;
     margin-top: 35px;
     margin-left: 350px;
-    margin-right: 800px;
+    margin-right: 940px;
     font-size: 1vw;
 
 }
@@ -154,7 +156,7 @@ body{
     padding: 15px 1px;
     background-color: yellowgreen;
     margin-top: 35px;
-    margin-left: 800px;
+    margin-left: 940px;
     margin-right: 350px;
     font-size: 1vw;
 
@@ -169,7 +171,7 @@ body{
     padding: 15px 1px;
     background-color: goldenrod;
     margin-top: 35px;
-    margin-left: 800px;
+    margin-left: 940px;
     margin-right: 350px;
     font-size: 1vw;
 
@@ -184,7 +186,7 @@ body{
     padding: 15px 1px;
     background-color: orange;
     margin-top: 35px;
-    margin-left: 800px;
+    margin-left: 940px;
     margin-right: 350px;
     font-size: 1vw;
 
