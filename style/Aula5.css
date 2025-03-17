@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.display{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: blueviolet;
+    margin: 5px;
+    padding: 1.2em;
+
+}
+
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+li{
+    padding: 5px;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    background-color: blueviolet;
+    color: black;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: violet;
+    color: black;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.secao1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.conteudo1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.secao2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.conteudo2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.secao3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.conteudo3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: blueviolet;
+    margin: 20px 20px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.rodape{
+    color: blueviolet;
+    padding: 1em;
+    font-size: 0.9em;
+}
