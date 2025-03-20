@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://novelando.com.br/wp-content/uploads/2024/06/shreck1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100%;
+}
+h1{
+  margin-bottom: 3em;
+}
+
+h1,p{
+  color: white;
+  text-align: center;
+}
+
+  .burro{
+    margin-top: 10px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 100px;
+  }
