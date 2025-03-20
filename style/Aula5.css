@@ -45,6 +45,8 @@ a:hover{
     color: black;
     border-radius: 5px;
     transition: 0.5s;
+    scale: 1.2;
+    display: inline-block;
 }
 
 .secao1{
