@@ -7,18 +7,25 @@
 body {
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(https://novelando.com.br/wp-content/uploads/2024/06/shreck1.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size:100%;
-}
-h1{
-  margin-bottom: 3em;
 }
 
-h1,p{
+h1,h2,p{
   color: white;
+}
+
+h1{
+  border:solid 3px blueviolet;
+  background-color: blueviolet;
+  margin-top: 10px;
   text-align: center;
+}
+.br{
+  text-align: center;
+  background-color: rgba(128, 0, 128, 0.377);
+}
+h1,h2,p{
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
   .burro{
@@ -26,4 +33,49 @@ h1,p{
     width: 200px;
     border: 5px solid black;
     border-radius: 100px;
+    margin-left: 5%;
   }
+
+ul{
+  color: white;
+  margin-left: 77.5%;
+}
+li{
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  background-color: blueviolet;
+  color:white;
+  border-radius: 5px;
+  box-shadow:white;
+}
+a:hover{
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  transition: 0.5s;
+  scale: 1.1;
+  display: inline-block;
+  box-shadow: white;
+}
+
+h2{
+  border: solid blueviolet;
+  background-color: blueviolet;
+  border-bottom: solid 5px rgba(128, 0, 128, 0.782);
+  margin-top: 25px;
+  padding: 15px;
+}
+.info,.ceep{
+  margin-top: 15px;
+}
+.kalunga,.ceep{
+  color: rgb(221, 15, 221);
+}
+.kalunga{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

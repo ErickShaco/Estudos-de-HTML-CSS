@@ -31,14 +31,7 @@ li{
     display: inline-block;
 }
 
-a{
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
-    background-color: blueviolet;
-    color: black;
-    border-radius: 5px;
-}
+
 
 a:hover{
     background-color: violet;
