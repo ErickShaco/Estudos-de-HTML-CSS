@@ -7,6 +7,8 @@
 body {
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h1,h2,p{
@@ -24,8 +26,7 @@ h1{
   background-color: rgba(128, 0, 128, 0.377);
 }
 h1,h2,p{
-  margin-left: 5%;
-  margin-right: 5%;
+
 }
 
   .burro{
@@ -33,12 +34,12 @@ h1,h2,p{
     width: 200px;
     border: 5px solid black;
     border-radius: 100px;
-    margin-left: 5%;
+  
   }
 
 ul{
   color: white;
-  margin-left: 77.5%;
+
 }
 li{
   display: inline-block;
@@ -51,6 +52,8 @@ a{
   color:white;
   border-radius: 5px;
   box-shadow:white;
+  margin-right: 8px;
+
 }
 a:hover{
   background-color: purple;
