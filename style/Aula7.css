@@ -1,115 +1,261 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-image:url(https://images2.alphacoders.com/132/thumb-1920-1325157.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+body {
+  background-image: url(https://images2.alphacoders.com/132/thumb-1920-1325157.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
-header{
-    text-align: center;
-    border: solid 2px blueviolet;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-radius: 20px;
+header {
+  text-align: center;
+  border: solid 2px blueviolet;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 20px;
 }
 
-h1,h2{
-    text-decoration:underline;
-}
-p{
-    text-align: justify;
-    padding: 20px;
+h1,
+h2 {
+  text-decoration: underline;
+  color: black;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-li{
-    display: inline-block;
+p {
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
 }
-hr{
-margin-left: 5%;
-margin-right: 5%;
-margin-bottom: 3%;
+
+p:hover {
+  background-color: rgba(137, 43, 226, 0.897);
+  transition: 0.5s;
 }
+
+li {
+  display: inline-block;
+}
+hr {
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 
 a {
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
-    background-color: #8054bb;
-    color: white;
-    border-radius: 50%;
-    margin-left: 8px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 10px 2px #b548b5;
-  }
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 6px;
+  box-shadow: 0px 0px 10px 2px white;
+}
 
 a:hover {
-        background-color: #9450b9;
-        color: rgb(0, 0, 0);
-        border-radius: 50%;
-        transition: 0.5s;
-        scale: 1.1;
-        display: inline-block;
-      }
-
-
-
-.primeiro{
-    margin-top: 6%;
-    margin-bottom: 6%;
-    width:350px;
+  background-color: skyblue;
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  transition: 0.5s;
+  scale: 1.1;
+  display: inline-block;
 }
 
-.primeiro:hover{
-    box-shadow: 0px 0px 5px 5px blueviolet;
-    border-radius: 10%;
-    scale: 1.1;
-    transition: 0.5s;
-
+.primeiro {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  width: 450px;
 }
 
-.segundo{
-    float: right;
-    width: 300px;
-    margin: 5px;
+.primeiro:hover {
+  box-shadow: 0px 0px 5px 5px violet;
+  border-radius: 10%;
+  scale: 1.1;
+  transition: 0.5s;
 }
 
-.segundo:hover{
-    box-shadow: 0px 0px 5px 5px blueviolet;
-    border-radius: 10%;
-    scale: 1.1;
-    transition: 0.5s;
+.segundo {
+  float: right;
+  width: 300px;
+  margin: 5px;
+  border-radius: 10%;
 }
 
-.terceiro{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    size: 50px;
-    width: 200px;
-    float: right;
-    margin: 5px;
+.segundo:hover {
+  box-shadow: 0px 0px 5px 5px violet;
+  border-radius: 10%;
+  scale: 1.1;
+  transition: 0.5s;
 }
 
-
-.terceiro:hover{
-    box-shadow: 0px 0px 5px 5px blueviolet;
-    border-radius: 10%;
-    scale: 1.1;
-    transition: 0.5s;
+.terceiro {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 10%;
+  size: 50px;
+  width: 200px;
+  float: right;
+  margin: 5px;
 }
 
-footer{
-    margin-bottom: 3%;
+.terceiro:hover {
+  box-shadow: 0px 0px 5px 5px violet;
+  border-radius: 10%;
+  scale: 1.1;
+  transition: 0.5s;
 }
 
-.img1{
-    margin-left: 100%;
+footer {
+  margin-bottom: 3%;
+  color: blueviolet;
+}
+
+.fundo {
+  background-image: url(https://images4.alphacoders.com/134/1343515.png);
+}
+
+.titulos {
+  color: red;
+  text-shadow: 5px 7px 9px red;
+}
+
+.borda {
+  border: 2px solid red;
+}
+
+.img1 {
+  width: 300px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10%;
+}
+
+.img1:hover {
+  box-shadow: 0px 0px 5px 5px red;
+  border-radius: 10%;
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.img2 {
+  width: 400px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  border-radius: 10%;
+  float: left;
+}
+
+.img2:hover {
+  box-shadow: 0px 0px 5px 5px red;
+  border-radius: 10%;
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.img3 {
+  width: 350px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 10%;
+  float: right;
+}
+
+.img3:hover {
+  box-shadow: 0px 0px 5px 5px red;
+  border-radius: 10%;
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.paragrafo {
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: red;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.paragrafo:hover {
+  background-color: rgba(0, 0, 0, 0.904);
+  transition: 0.5s;
+}
+
+.rodape {
+  color: red;
+}
+
+.fundo2 {
+  background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/07/jujutsu-kaisen-yuji-itadori-anime-wallpaper-preview.jpg);
+}
+.borda2{
+    border: solid 2px aqua;
+}
+.titu {
+  color: aqua;
+  text-shadow: 1px 3px 12px blue;
+}
+
+.i1 {
+  width: 350px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 10%;
+}
+.i2,
+.i3 {
+  width: 350px;
+  margin-top: 10px;
+  margin-top: 10px;
+  border-radius: 10%;
+  float: left;
+  margin-right: 10px;
+}
+
+.i1:hover {
+  box-shadow: 0px 0px 5px 5px aqua;
+  border-radius: 10%;
+  scale: 1.1;
+  transition: 0.5s;
+}
+.i2:hover {
+  box-shadow: 0px 0px 5px 5px aqua;
+  border-radius: 10%;
+  scale: 1.1;
+  transition: 0.5s;
+}
+.i3:hover {
+  box-shadow: 0px 0px 5px 5px aqua;
+  border-radius: 10%;
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.para {
+  color: aqua;
+}
+
+.para:hover {
+  background-color: rgba(0, 0, 0, 0.733);
+  transition: 0.5s;
+}
+
+.rodpe {
+  color: aqua;
 }
