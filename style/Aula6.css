@@ -26,8 +26,8 @@ p {
 }
 
 h1 {
-  border: solid 3px #8054bb;
-  background-color: #8054bb;
+  border: solid 3px #8154bb21;
+  background-color: #8154bb8f;
   margin-top: 10px;
   text-align: center;
   border-radius: 15px 15px 0px 0px;
@@ -92,7 +92,7 @@ h2 {
 .kalunga,
 .ceep {
   display: inline-block;
-  color: #D962B5;
+  color: #ff00b3;
   font-weight: bolder;
 }
 .kalunga {

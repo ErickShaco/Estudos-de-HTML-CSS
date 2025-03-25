@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(https://images2.alphacoders.com/132/thumb-1920-1325157.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+header{
+    text-align: center;
+    border: solid 2px blueviolet;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 20px;
+}
+
+h1,h2{
+    text-decoration:underline;
+}
+p{
+    text-align: justify;
+    padding: 20px;
+}
+
+li{
+    display: inline-block;
+}
+hr{
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 3%;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    background-color: #8054bb;
+    color: white;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 2px #b548b5;
+  }
+
+a:hover {
+        background-color: #9450b9;
+        color: rgb(0, 0, 0);
+        border-radius: 50%;
+        transition: 0.5s;
+        scale: 1.1;
+        display: inline-block;
+      }
+
+
+
+.primeiro{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width:350px;
+}
+
+.primeiro:hover{
+    box-shadow: 0px 0px 5px 5px blueviolet;
+    border-radius: 10%;
+    scale: 1.1;
+    transition: 0.5s;
+
+}
+
+.segundo{
+    float: right;
+    width: 300px;
+    margin: 5px;
+}
+
+.segundo:hover{
+    box-shadow: 0px 0px 5px 5px blueviolet;
+    border-radius: 10%;
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+.terceiro{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    size: 50px;
+    width: 200px;
+    float: right;
+    margin: 5px;
+}
+
+
+.terceiro:hover{
+    box-shadow: 0px 0px 5px 5px blueviolet;
+    border-radius: 10%;
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+footer{
+    margin-bottom: 3%;
+}
+
+.img1{
+    margin-left: 100%;
+}
