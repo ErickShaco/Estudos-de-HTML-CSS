@@ -1,0 +1,41 @@
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+.container{
+    background-color: darkmagenta;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:row;
+    /* flex-wrap: wrap; */
+    flex-shrink: 0;
+}
+
+.item{
+    background-color: white;
+    border: solid 2px black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1{
+    flex-shrink: 3;
+}
+
+flex-start: Lines are packed at the top of the container.
+flex-end: Lines are packed at the bottom of the container.
+center: Lines are packed at the vertical center of the container.
+space-between: Lines display with equal spacing between them.
+space-around: Lines display with equal spacing around them.
+stretch
