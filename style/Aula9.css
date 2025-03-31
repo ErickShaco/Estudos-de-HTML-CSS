@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 body {
-
   font-family: Arial, Helvetica, sans-serif;
   background-image: url(https://external-preview.redd.it/buKSYczPIDSIC61abGQnP0I_4sbJbjm30zy8y8mbkZg.jpg?auto=webp&s=e489781746ffe0a546e441add3ca936e45f8845f);
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
 }
+/* Inicio da Pagina "Home" */
 
 header {
   border: solid 2px black;
@@ -56,64 +56,190 @@ div {
   text-align: center;
 }
 h1 {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 3em;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   font-weight: bolder;
+  text-shadow: 1px 1px 3px yellow;
 }
 
 h2 {
-    border-bottom: solid 2px yellow;
-    margin-left: 8%;
-    margin-right: 8%;
-    text-align: left;
-    padding-bottom: 15px;
-    font-size: 1em;
-    font-weight: bolder;
-    margin-bottom: 50px;
+  border-bottom: solid 2px yellow;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  padding-bottom: 15px;
+  font-size: 1.2em;
+  font-weight: bolder;
+  margin-bottom: 30px;
 }
-p{
-    color: yellow;
+p {
+  color: yellow;
 }
-.sobre1{
-    font-size: 1.5em;
-    font-weight: bolder;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-bottom: solid 3px black;
-    padding: 20px;
+.sobre1 {
+  font-size: 1.6em;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: solid 3px black;
+  padding: 20px;
 }
-.corpo2{
-   border-bottom: solid 3px black;
-   border-left: solid 2px black;
-   border-right: solid 3px black;
-   border-top: solid 1px black;
-    text-align: left;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding: 20px;
+.corpo2 {
+  font-size: 1.3em;
+  border-bottom: solid 1px black;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  border-top: solid 1px black;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 2px 2px 3.5px 0.5px black;
 }
-.sobre2{
-    font-size: 1em;
-    font-weight: bolder;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 20px;
+.sobre2 {
+  font-size: 1.2em;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
 }
-p b{
-    color: black;
+p b {
+  color: black;
 }
 
 footer {
-    text-align: center;
-    border: solid 2px black;
-    padding-left: 20px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: yellow;
-    font-weight: bolder;
-  }
+  text-align: center;
+  border: solid 2px black;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: yellow;
+  font-weight: bolder;
+}
+/* Fim da Pagina "Home"*/
+
+/* Inicio da Pagina "Perfil" */
+
+.cadastro {
+  background-color: rgba(0, 0, 0, 0.123);
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: solid 3px black;
+  padding: 15px;
+}
+
+.botao {
+  border-radius: 5px;
+  border: solid 2px black;
+  font-size: 1.3em;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.botao:hover {
+  transition: 0.3s;
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  border: solid 2px yellow;
+  font-size: 1.3em;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 5px 2px yellow;
+}
+/* Fim da Pagina "Perfil" */
+
+/* Inicio da Pagina "Curiosidades"*/
+
+.sobre {
+  background-color: rgba(0, 0, 0, 0.123);
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  border-bottom: solid 3px black;
+  padding: 15px;
+}
+.info {
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: justify;
+}
+.info:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px black;
+  box-shadow: 0px 0px 10px 2px black;
+}
+
+/* Fim da Pagina "Curiosidades */
+
+/* Inicios da pagina "Produtos" */
+
+.container {
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border: solid 2px black;
+  width: 400px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+
+}
+
+.imagem {
+  margin-top: 15px;
+  display: flex;
+  width: 200px;
+  border-radius: 8px;
+}
+
+.credito {
+  display: flex;
+  margin-left: 200px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  border-bottom: solid;
+  color: black;
+  margin-bottom: 20px;
+}
