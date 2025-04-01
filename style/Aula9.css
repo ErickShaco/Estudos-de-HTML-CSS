@@ -7,7 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url(https://external-preview.redd.it/buKSYczPIDSIC61abGQnP0I_4sbJbjm30zy8y8mbkZg.jpg?auto=webp&s=e489781746ffe0a546e441add3ca936e45f8845f);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 /* Inicio da Pagina "Home" */
@@ -46,11 +46,7 @@ a:hover {
   scale: 1.1;
   display: inline-block;
 }
-.bemvindo {
-  font-size: 2em;
-  margin-bottom: 40px;
-  margin-top: 40px;
-}
+
 div {
   color: white;
   text-align: center;
@@ -194,6 +190,7 @@ footer {
 img {
   display: block;
   margin: auto;
+  width: 700px;
   margin-bottom: 30px;
   border: solid 2px black;
   box-shadow: 0px 0px 10px 2px black;
@@ -201,14 +198,13 @@ img {
 
 /* Fim da Pagina "Curiosidades */
 
-/* Inicios da pagina "Produtos" */
+/* Inicio da pagina "Produtos" */
 
 .container {
   height: 800px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -220,26 +216,36 @@ img {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
+}
 
+.card:hover{
+  border:solid 2px black;
+  box-shadow: 0px 0px 10px 2px black;
+  scale: 1.05;
+  transition: 0.3s ;
 }
 
 .imagem {
   margin-top: 15px;
-  display: flex;
   width: 200px;
   border-radius: 8px;
 }
 
 .credito {
   display: flex;
-  margin-left: 200px;
+  justify-content: end;
+  margin-right: 10px;
   color: black;
   margin-bottom: 20px;
+  font-size: 16px;
 }
 
 .item {
   display: flex;
+  justify-content: center;
   border-bottom: solid;
+  margin-left: 50px;
+  margin-right: 50px;
   color: black;
   margin-bottom: 20px;
 }
