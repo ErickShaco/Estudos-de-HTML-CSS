@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/cadastrar" method="post">
+        <fieldset>
+          <legend>Cadastro</legend>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="usuario_nome" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="usuario_email" required>
+          <label>Gênero:</label>
+          <input type="radio" name="genero" value="masculino"> Masculino
+          <input type="radio" name="genero" value="feminino"> Feminino
+          <label>Hobbies:</label>
+          <input type="checkbox" name="hobbies" value="musica"> Música
+          <input type="checkbox" name="hobbies" value="esporte"> Esporte
+          <label for="pais">País:</label>
+          <select name="pais" id="pais">
+            <option value="br">Brasil</option>
+            <option value="us">EUA</option>
+          </select>
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </fieldset>
+       </form
+    
+</body>
+</html>
