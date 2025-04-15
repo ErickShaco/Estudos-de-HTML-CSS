@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/Aula10.css">
 </head>
 <body>
+    <form action="/cadastrar" method="post">
+        <fieldset>
+          <legend>Sign Up</legend>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="usuario_nome" required placeholder="Digite seu nome">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="usuario_email" required placeholder="Digite seu email">
+
+          <label for="password">Password:</label>
+          <input type="password" id="password="password_usuario" required minlength="8" placeholder="Digite sua Senha">
+
+        </fieldset>
+        
+        <div class="btn">
+           <li> <a class="cancelar" href="../Aulas/aula11.2.html">Cancelar</a> ></li>>
+          <input class="enviar" type="submit" id="Enviar">
+        </div>
+
+       </form
     
 </body>
 </html>
