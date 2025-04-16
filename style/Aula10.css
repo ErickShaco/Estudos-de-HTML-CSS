@@ -60,33 +60,33 @@ legend{
 }
 
 .btn{
-    border: 2px solid yellow;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* border: solid 1px yellow; */
 }
 
 .enviar{
+    margin-top: .8em;
     background-color: blueviolet;
     color: black;
     border: none;
-    /* border-radius: 7px; */
-    width: 6em;
+    width: 8em;
 } 
 
-/* .btn input[type="submit"]:hover{
-    background-color: white;
+.enviar:hover{
     transition: .4s;
+    margin-top: .8em;
+    background-color: white;
     cursor: pointer;
     color: blueviolet;
-} */
-
+}
 
 
 
 
 .cancelar{
-    margin-top: 0.8em;
+    margin-top: .8em;
     width: 6em;
     font-size: .7em;
     text-decoration: none;
@@ -94,7 +94,7 @@ legend{
     justify-content: center;
     align-items: center;
     background-color: blueviolet;
-    color: white;
+    color: black;
     border-radius: 5px;
     padding: 10px 10px;
 }
