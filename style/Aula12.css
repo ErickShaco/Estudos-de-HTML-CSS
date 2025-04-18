@@ -119,25 +119,37 @@ h1{
 /* Inicio Da tela Armas Orientais */
 
 
-.container{
+.container {
     border: solid 1px black;
     margin: 0px 20px 0 20px;
     gap: 20px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .titulo {
     width: 100%;
     text-align: center; 
-    margin: 20px 0;   
+    display: flex;
+    margin-top: 20px;
+    margin-left: 258px;
+    padding: 10px 0; 
+    height: auto;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 3px 3px 1px black;
 }
 
-.cards-container {
+.card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
-    justify-content: flex-start; 
-    margin-top: 20px
+    margin-top: 10px;
 }
 
 .card {
@@ -147,6 +159,12 @@ h1{
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    cursor: pointer;
   }
   
   .card-img {
