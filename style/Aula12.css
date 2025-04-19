@@ -204,11 +204,11 @@ h1{
 }
 
 form{
-  background-color:black;
+  background-color:#4B4340;
   border-radius: 10px;
   width: 600px;
   height: 600px;
-  box-shadow: 3.6px 0px 4px 2px blueviolet;
+  box-shadow: 3.6px 0px 4px 2px #DB6E29;
   padding: 1em;
 }
 
@@ -223,7 +223,6 @@ input,label{
 }
 
 label{
-  color:rgb(137, 43, 226);
   margin-bottom: 0.5em;
 }
 
@@ -241,12 +240,12 @@ input{
 }
 
 input:focus{
-  outline: 2px solid blueviolet;
-  color: blueviolet;
+  outline: 2px solid #DB6E29;
+  color: #DB6E29;
 }
 
 legend{
-  color:blueviolet;
+  color:#DB6E29;
   font-size: 1.6em;
   font-weight: 800;
   padding: 10px;
@@ -263,16 +262,16 @@ legend{
 
 .enviar{
   margin-top: .8em;
-  background-color: blueviolet;
+  background-color: #DB6E29;
   color: black;
   border: none;
 } 
 
 .enviar:hover{
   transition: .4s;
-  background-color: white;
+  background-color: black;
   cursor: pointer;
-  color: blueviolet;
+  color: #DB6E29;
 }
 
 .checkbox-container {
@@ -292,7 +291,7 @@ legend{
 }
 
 .termos{
-  color: blueviolet;
+  color: #DB6E29;
   font-size: 1em;
   pointer-events: none;
 }
