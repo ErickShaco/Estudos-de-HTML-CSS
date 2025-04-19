@@ -120,7 +120,6 @@ h1{
 
 
 .container {
-    border: solid 1px black;
     margin: 0px 20px 0 20px;
     gap: 20px;
     width: 100%;
@@ -138,7 +137,7 @@ h1{
     padding: 10px 0; 
     height: auto;
     font-size: 30px;
-    color: white;
+    color: #DB6E29;
     font-weight: bolder;
     text-shadow: 3px 3px 1px black;
 }
@@ -193,3 +192,107 @@ h1{
     font-weight: bolder;
     color: #000;
   }
+  
+  /* Fim da tela Armas Orientais */
+
+/* Inicio da tela Cadastro */
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  background-color:black;
+  border-radius: 10px;
+  width: 600px;
+  height: 600px;
+  box-shadow: 3.6px 0px 4px 2px blueviolet;
+  padding: 1em;
+}
+
+fieldset{
+  border: none;
+  padding: 0;
+}
+
+input,label{
+  box-sizing:border-box;
+  display: flex;
+}
+
+label{
+  color:rgb(137, 43, 226);
+  margin-bottom: 0.5em;
+}
+
+input{
+  border:1px solid rgba(137, 43, 226, 0);
+  border-radius: 10px;
+  width: 450px;
+  height:4em;
+  padding: 0.75em;
+  color: blueviolet;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 30px;
+  font-size: 1em
+}
+
+input:focus{
+  outline: 2px solid blueviolet;
+  color: blueviolet;
+}
+
+legend{
+  color:blueviolet;
+  font-size: 1.6em;
+  font-weight: 800;
+  padding: 10px;
+  text-align:center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enviar{
+  margin-top: .8em;
+  background-color: blueviolet;
+  color: black;
+  border: none;
+} 
+
+.enviar:hover{
+  transition: .4s;
+  background-color: white;
+  cursor: pointer;
+  color: blueviolet;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;;
+  justify-content: start;
+}
+
+.checkbox{
+ width: 20px;
+ margin: 0px 0px 0px 80px;
+}
+
+.checkbox:focus{
+  outline: none;
+}
+
+.termos{
+  color: blueviolet;
+  font-size: 1em;
+  pointer-events: none;
+}

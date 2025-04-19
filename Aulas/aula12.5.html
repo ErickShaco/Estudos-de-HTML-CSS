@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/Aula12.css">
+</head>
+
+<body>
+
+    <header class="sidebar">
+        <nav >
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/4109/4109345.png"><h1>Black<span>Smith</span></h1>
+            </div>
+            <ul class="botoes">
+                <li><a href="../Aulas/aula12.html"> <img src="https://www.svgrepo.com/show/502702/home-1.svg" class="icone"> Home</a></li>
+                <li><a href="../Aulas/aula12.2.html"> <img src="https://www.svgrepo.com/show/299962/katana.svg" class="icone"> Armas Orientais</a></li>
+                <li><a href="../Aulas/aula12.3.html"> <img src="https://www.svgrepo.com/show/535193/axe.svg" class="icone"> A. Ocidentais</a></li>
+                <li><a href="../Aulas/aula12.4.html"> <img src="https://www.svgrepo.com/show/483928/knight-2.svg" class="icone"> Armaduras</a></li>
+                <li><a href="../Aulas/aula12.5.html"> <img src="https://www.svgrepo.com/show/372448/form.svg" class="icone"> Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <form action="/cadastrar" method="post">
+            <fieldset>
+
+                <legend>Cadastro De Usuario</legend>
+                <input type="text" id="nome" name="usuario_nome" required placeholder="Digite seu nome">
+                <input type="email" id="email" name="usuario_email" required placeholder="Digite seu email">
+                <input type="password" id="password="password_usuario" required minlength="8" placeholder="Digite sua Senha">
+
+            </fieldset>
+            
+            <div class="checkbox-container">
+                <input type="checkbox" class="checkbox" id="termos-checkbox">
+                <p class="termos"> Aceito os termos de Uso </p>
+            </div>
+
+            <div class="btn">
+                <input class="enviar" type="submit" id="enviar" value="Cadastrar">
+            </div>
+
+        </form>
+
+    </section>
+    
+</body>
+</html>
